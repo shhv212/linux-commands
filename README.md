@@ -22,7 +22,7 @@
 ===============================  
 
 <a name="awk"></a>  
-I. Lệnh awk  
+# I. Lệnh awk  
 
 - Lệnh **awk** dùng để tìm kiếm và xử lý dữ liệu văn bản trên Linux. Câu lệnh có đầu vào bao gồm 1 `pattern` là biểu thức chính quy, 1 `file input` đầu vào và 1 `action` là hành động thực hiện trên file đó dựa trên `pattern`.
 - Cấu trúc của lệnh `awk`:  
@@ -44,7 +44,7 @@ I. Lệnh awk
 <img src="https://i.imgur.com/wVCJKE9.png">  
 
 <a name="ps"></a>
-II. Lệnh ps  
+# II. Lệnh ps  
 
 - Lệnh **ps** được sử dụng để liệt kê và hiển thị tất cả các tiến trình đang chạy trên hệ thống kèm với các thông số có sẵn.  
 - Ta có thể sử dụng các [option] để lọc ra các tiến trình theo điều kiện của tính trình. Cú pháp của lệnh `ps` như sau:  
