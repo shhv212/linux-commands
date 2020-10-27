@@ -138,4 +138,62 @@ Trên đây ta có thấy `PID` chính là ID của tiến trình, `TTY` là th�
 
 `tee [option] [file]`  
 
-- 
+- Ví dụ này thực hiện tạo 1 file text rỗng, sau đó đưa dữ liệu nhập vào bằng lệnh `echo` ra màn hình và lưu nó lại trong file vừa tạo:  
+
+<img src="https://i.imgur.com/B4eu7QQ.png">  
+
+- Để chèn dữ liệu input vào một file đã có sẵn mà không ghi đè thì ta có thể thêm tùy chọn `-a` :
+
+<img src="https://i.imgur.com/8JpPHXe.png">  
+
+- Ta cũng có thể ghi dữ liệu đầu ra vào nhiều file khác nhau: 
+
+<img src="https://i.imgur.com/U0l8BY4.png">  
+
+<a name="wc"></a>  
+### 3. Lệnh wc  
+
+- Lệnh **wc** đơn giản chỉ đếm số từ, số dòng hoặc số byte có trong 1 file.
+
+- Cú pháp của lệnh **wc** như sau:  
+
+`wc [option] [file]`  
+
+- Chúng ta có thể sử dụng tùy chọn `-l` để hiển thị số dòng, `-c` để hiển thị số byte, `-w` để hiển thị số từ của file được chỉ định.  
+
+- Cách đếm và hiển thị số dòng của một file: 
+
+<img src="https://i.imgur.com/Dy2YU7I.png">  
+
+- Cách đếm và hiển thị số từ của một file:  
+
+<img src="https://i.imgur.com/CzQ7Fil.png">  
+
+- Cách đếm số kí tự (byte) của một file:  
+
+<img src="https://i.imgur.com/rjtUEBe.png">  
+
+<a name="cut"></a>  
+### 4. Lệnh cut  
+
+- Lệnh **cut** dùng để trích xuất một nội dung (dòng, cột, vv..) từ luồng dữ liệu đầu vào `stdin`.
+
+- Cú pháp của lệnh **cut** :
+
+`cut [option] [file]`  
+
+- Với tùy chọn `-c` là lấy số kí tự, ta có thể lấy ra một số kí tự từ lệnh echo nhập vào như sau:  
+
+<img src="https://i.imgur.com/4OMojTZ.png">  
+
+- Nếu dữ liệu input là 1 file thì ta có thể lấy các kí tự nhất định từ mỗi dòng:  
+
+<img src="https://i.imgur.com/1mycq6A.png">  
+
+- Cắt dữ liệu đầu vào theo những trường chỉ định ở mỗi dòng bằng cách thêm tùy chọn `-f` :  
+
+<img src="https://i.imgur.com/AE3zuPq.png">  
+
+<a name="grep"></a>
+## V. Lệnh grep  
+
