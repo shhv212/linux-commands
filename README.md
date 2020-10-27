@@ -34,7 +34,7 @@
 
 - Cách lệnh `awk` hoạt động:  
 ```
- - Lệnh đọc dữ liệu từ file đầu vào từ trên xuống dưới. Sau đó khi dòng nào có dữ liệu trùng khớp với `pattern` thì lệnh sẽ thực hiện `action`. Nếu khi tìm hết tất cả các dòng rồi mà không có `pattern` nào được tìm thấy thì sẽ không có `action` nào được thực hiên. 
+ - Lệnh đọc dữ liệu từ file đầu vào từ trên xuống dưới. Sau đó khi dòng nào có dữ liệu trùng khớp với `pattern` thì lệnh sẽ thực hiện `action`. Nếu khi tìm hết tất cả các dòng rồi mà không có `pattern` nào được tìm thấy thì sẽ không có `action` nào được thực hiện. 
 
  - Bắt buộc phải có ít nhất một trong hai thành phần là `pattern` hoặc `action`. Nếu không có `pattern` thì nó sẽ thực hiện đối với từng dòng dữ liệu còn nếu không có `action` thì lệnh sẽ in tất cả các dòng có chứa `pattern`.
 ```
