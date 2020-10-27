@@ -244,6 +244,10 @@ Trên đây ta có thấy `PID` chính là ID của tiến trình, `TTY` là th�
 
 <img src="https://i.imgur.com/U7PQYg8.png">  
 
+- Hoặc có thể thay thế tất cả các lần tìm thấy chuỗi kí tự 'pattern' bằng cách thêm tham số `g` vào cuối như sau:  
+
+<img src="https://i.imgur.com/wYt1cDF.png">  
+
 
 
 
