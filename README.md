@@ -197,3 +197,54 @@ Trên đây ta có thấy `PID` chính là ID của tiến trình, `TTY` là th�
 <a name="grep"></a>
 ## V. Lệnh grep  
 
+- Lệnh **grep** dùng để tìm kiếm và hiển thị ra dòng chứa các kí tự cần tìm trong file. 
+
+- Cú pháp của lệnh **grep** như sau đây: 
+
+`grep [option] [file]`
+
+- Lệnh này có thể được sử dụng để tìm kiếm nhiều chuỗi khác nhau, trong nhiều file khác nhau cũng như có nhiều option để thực hiện các yêu cầu tươn ứng.
+
+- Sử dụng lệnh này để in ra các dòng có chứa chuỗi kí tự trong file đầu vào:  
+
+<img src="https://i.imgur.com/DeaDJuN.png">  
+
+- Có thể sử dụng tùy chọn `-v` để in ra các dòng kết quả không có chứa chuỗi đó:
+
+<img src="https://i.imgur.com/VoePqyk.png">  
+
+- Thêm tùy chọn `-i` để tìm kiếm và hiển thị mà không phân biệt kí tự hoa thường:  
+
+<img src="https://i.imgur.com/wQZrOIC.png">  
+
+- Hiển thị chỉ số dòng của những dòng kết quả trả về, ta thêm tùy chọn -n:
+
+<img src="https://i.imgur.com/aXliPq8.png">  
+
+<a name="sed"></a>  
+## VI. Lệnh sed  
+
+- Lệnh **sed** dựa trên các luồng dữ liệu đầu vào hoặc các file input để hiển thị các kết quả tìm kiếm các `pattern`. 
+
+- Cú pháp của lệnh **sed**:
+
+`sed [option] commands [file]`
+
+- Lệnh này thường được sử dụng để chỉnh sửa, lọc hay thay thế văn bản.
+
+- Khi sử dụng lệnh **sed** nhưng không thêm các tùy chọn đầu vào, ta sẽ mặc định mở file đó lên:  
+
+<img src="https://i.imgur.com/CAlNReU.png">  
+
+- Có thể thêm kí tự `substitute` (viết tắt là `s`) để thay thế chuỗi kí tự 'parterm' được tìm thấy bằng một chuỗi mới trong các file đầu vào:  
+
+<img src="https://i.imgur.com/WVX7xBq.png">  
+
+- Nếu không muốn thay thế lần xuất hiện đầu tiên của chuỗi kí tự được đưa vào, ta có thể thêm tùy chọn để chỉ thay thế lần tìm thấy thứ N :  
+
+<img src="https://i.imgur.com/U7PQYg8.png">  
+
+
+
+
+
