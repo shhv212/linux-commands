@@ -24,7 +24,7 @@
 <a name="awk"></a>  
 I. Lệnh awk  
 
-- Lệnh `awk` dùng để tìm kiếm và xử lý dữ liệu văn bản trên Linux. Câu lệnh có đầu vào bao gồm 1 `pattern` là biểu thức chính quy, 1 `file input` đầu vào và 1 `action` là hành động thực hiện trên file đó dựa trên `pattern`.
+- Lệnh **aw** dùng để tìm kiếm và xử lý dữ liệu văn bản trên Linux. Câu lệnh có đầu vào bao gồm 1 `pattern` là biểu thức chính quy, 1 `file input` đầu vào và 1 `action` là hành động thực hiện trên file đó dựa trên `pattern`.
 - Cấu trúc của lệnh `awk`:  
 `awk pattern action file`  
 - Lệnh này có thể hoạt động trên nhiều cột và nhiều dòng dữ liệu cũng như nhiều file đầu vào.
@@ -34,7 +34,7 @@ I. Lệnh awk
  - Bắt buộc phải có ít nhất một trong hai thành phần là `pattern` hoặc `action`. Nếu không có `pattern` thì nó sẽ thực hiện đối với từng dòng dữ liệu còn nếu không có `action` thì lệnh sẽ in tất cả các dòng có chứa `pattern`.
 ```
 
-- Thực hiện một ví dụ in ra tất cả các dòng của `file data.txt`. Nếu không có "pattern' thì lệnh `awk` mặc định sẽ giống như lệnh `cat` :  
+- Thực hiện một ví dụ in ra tất cả các dòng của `file data.txt`. Nếu không có `pattern` thì lệnh `awk` mặc định sẽ giống như lệnh `cat` :  
 <img src="https://i.imgur.com/xOL5Sp3.png">  
 
 
